@@ -1,3 +1,5 @@
+//fyers v2 login flow
+//for more details checkout: https://myapi.fyers.in/docs/
 function fyersLogin(username,password,pin,client_id,appSecret) {
   // login
   const loginData = {
