@@ -26,9 +26,10 @@ function getAccessToken(){
   const app_id = 'xxxxxxxxxx-xxx' // "L9NY****W-100" (Client_id here refers to APP_ID of the created app)
   const appSecret = 'xxxxxxxxxx'  // app_secret key which you got after creating the app
   
+  //fetch the 'fyers-access-token.gs' file or copy it:
   const fyerstokengs = UrlFetchApp.fetch("https://raw.githubusercontent.com/1DarshikGajjar1/fyers-api-gas/main/fyers-access-token.gs").getContentText();
   eval(fyerstokengs);
-  if(appSecret && app_id){return fyersLogin(username,password,pin,app_id,appSecret)};
+  if(appSecret && app_id){return fyersLogin(username,password,pin,app_id,appSecret)};  //from 'fyers-access-token.gs'
     console.log("access token is stored!")
 }
 function accesstoken() {
