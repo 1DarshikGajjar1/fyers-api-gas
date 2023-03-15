@@ -16,7 +16,7 @@ get fyers access token using Google Apps Script
 
 ```
 
-step-1 copy and paste below code into your gs file:
+step-1 copy and paste below code into your gs file and run `getAccessToken()` :
 
 ``` javaScript
 function getAccessToken(){
