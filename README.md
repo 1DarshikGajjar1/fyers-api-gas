@@ -41,7 +41,7 @@ function accesstoken() {
 step-2 
 now, you can pass the `accesstoken()` funtion to the variable to retrieve the access token stored in the script properties.
 
-```
+```javaScript
 const access_token = accesstoken();
 
 ```
